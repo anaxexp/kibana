@@ -2,7 +2,7 @@ version: "2"
 
 services:
   elasticsearch:
-    image: anaxexperience/elasticsearch:$ES_VER
+    image: anaxexp/elasticsearch:$ES_VER
     ulimits:
       memlock:
         soft: -1
